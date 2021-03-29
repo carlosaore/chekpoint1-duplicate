@@ -80,3 +80,9 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+@media only screen (min-width: 700){
+.menu{
+  text-align: right;
+}
+}
