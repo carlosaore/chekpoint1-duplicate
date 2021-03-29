@@ -1,15 +1,10 @@
-let devTools=[Github,VScode,Terminal]
-
 const avatar= document.getElementById("avatar");
 const button= document.getElementById("but-name");
-const modButton=document.getElementById("mod-dev")
 
 
 avatar.addEventListener('click', function(){
     avatar.src= "image/avatar.svg"
 })
-
-
 
 button.addEventListener('click', function(){
     const name= document.getElementById("name");
@@ -19,12 +14,12 @@ button.addEventListener('click', function(){
 
 
 
-
     let newColor=prompt("Introduce a new color");
     color.style.background=newColor;
     for (let j = 0; j < text.length; j++) {
         text[j].style.color = newColor;
     }
+
     for (let i = 0; i < links.length; i++) {
         links[i].style.color = newColor;
     }
