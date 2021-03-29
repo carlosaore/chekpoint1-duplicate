@@ -8,6 +8,36 @@ sumArr( ["2", "7", "3"], ["2", "4", "9"] ) should return ["4", "11", "12"]
 sumArr( ["2", "7", "3", "8", "2"], ["2", "4", "9"] ) should return ["4", "11", "12", "8", "2"]
 */
 
-function sumArr(arrayA, arrayB) {
-  // Your code here !
+function changeToInt(array){
+  for(let i=0; i<array.length;i++){
+    array[i]=parseInt(array[i])
+  }
+  return array
+  
 }
+let totalList=[]
+function sumArr(arrayA, arrayB) {
+  changeToInt(arrayA);
+  changeToInt(arrayB);
+  
+  if (arrayA>=arrayB){
+    totalList= arrayA.map( function (number, index){ 
+      return number+arrayB[index];
+    })
+  }else{
+    totalList= arrayB.map( function (number, index){ 
+      return number+arrayA[index];
+    })
+
+  }
+  return totalList
+
+ 
+  
+}
+
+
+
+a=["1","1", "3"]
+b=["1","1"]
+sumArr(a,b)

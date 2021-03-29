@@ -23,7 +23,19 @@ const scores = [
 ];
 
 function getPoints(array) {
-  // Your code here !
+  let matches= array.map(match=>match.split(":"))
+  let totalScore=0
+  matches.forEach(match=>{
+    if(match[0]>match[1]){
+      totalScore +=3
+    }else if ((match[0]<match[1])){
+      totalScore +=0
+    }else{
+      totalScore +=1
+    }
+  })
+  return totalScore
 }
+
 
 console.log(getPoints(scores));

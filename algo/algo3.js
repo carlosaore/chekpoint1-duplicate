@@ -14,9 +14,29 @@ Your final list should like this:
   26-99
   26-100
 */
-
-function theaterSieges() {
-  // Your code here !
+/*  let listSeats=[]
+function theaterSieges(columnas,filas) {
+  for (let i=0; i<columnas;i++){
+    
+    for (let j=0; j<columnas;i++)
+    console.log (`${i}- ${j}`)
+  }
+  
 }
 
-console.log(theaterSieges());
+console.log(theaterSieges(26,100));
+
+*/
+
+let displaySeats=[]
+function theaterSieges(columnas,filas) {
+  
+  for (let i=1; i<=columnas;i++){
+    for (let j=1; j<=filas;j++)
+    displaySeats.push(`${i}- ${j}`)
+  }
+  return displaySeats
+}
+
+
+console.log(theaterSieges(26,100));
