@@ -28,20 +28,3 @@ btn.addEventListener("click", function(event) {
     }
 });
 
-/*change the color of all the html links
-const colorBack = document.querySelectorAll("a");
-
-
-
-btn.addEventListener("click", function(event) {
-   surName.innerHTML = prompt("type Name");
-   surName.style.color = "white";
-   let valor = prompt("type color");
-   for(let i = 0; i < colorBack.length;i++){
-    colorBack[i].style.backgroundColor = valor;
-  }
-   for(let j = 0; j < colorText.length;j++){
-    colorText[j].style.color = valor;
-   }
-});*/
-
