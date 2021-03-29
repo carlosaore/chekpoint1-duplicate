@@ -28,3 +28,16 @@ btn.addEventListener("click", function(event) {
     }
 });
 
+
+//change text Front
+const btnModifyText = document.querySelector("#btnModify");
+const list = document.querySelectorAll("#tools");
+
+matrix = ["VSCode", "Github", "Terminal"];
+
+btnModifyText.addEventListener("click", function(event) {
+    for(let y = 0; y < list.length;y++){
+        list[y].innerHTML = matrix[y];
+     }   
+
+});
