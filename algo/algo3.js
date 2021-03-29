@@ -17,6 +17,13 @@ Your final list should like this:
 
 function theaterSieges() {
   // Your code here !
+ //column
+  for(let col = 1; col <= 26;col++){
+    //seats
+    for(let seat = 1;seat <=100; seat++){
+      console.log(`${col} ${seat}`);
+    }
+  }
 }
 
-console.log(theaterSieges());
+theaterSieges();
