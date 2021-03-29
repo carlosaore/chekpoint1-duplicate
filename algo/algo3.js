@@ -17,6 +17,27 @@ Your final list should like this:
 
 function theaterSieges() {
   // Your code here !
+  let columns = [];
+  let columnSeat = 0;
+  let rows = [];
+  let rowSeat = 0;
+  
+
+  while(columnSeat<26){
+    columnSeat +=1;
+    columns.push(columnSeat);
+  }
+  //console.log(columns);
+  
+  while(rowSeat<100){
+    rowSeat +=1;
+    rows.push(rowSeat);
+  }
+  //console.log(rows)
+
+ // for(let i=0; columns.length; i++){
+  //  return columns[i];
+ // }
 }
 
 console.log(theaterSieges());

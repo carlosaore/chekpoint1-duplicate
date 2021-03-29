@@ -24,6 +24,16 @@ const scores = [
 
 function getPoints(array) {
   // Your code here !
+  let score= 0;
+  for(let i=0; i<scores.length; i++){
+    if(parseInt(scores[i][0])> parseInt(scores[i][2])){
+      score +=3;
+    }
+    else if(parseInt(scores[i][0]) === parseInt(scores[i][2])){
+      score +=1;
+    }
+  }
+  return score;
 }
 
 console.log(getPoints(scores));
