@@ -16,7 +16,12 @@ Your final list should like this:
 */
 
 function theaterSieges() {
-  // Your code here !
-}
-
-console.log(theaterSieges());
+  let array = []
+   for ( i= 1; i = 26; i++){
+     for (j=1; j <= 100; j++)
+     array.push(i, j)
+   }
+   return array 
+ }
+ 
+ console.log(theaterSieges());
