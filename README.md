@@ -25,6 +25,9 @@ Your 1st checkpoint !
 - Paste the aformentionned link in it
 - Commit this file
 
+https://wild-quiz-client.herokuapp.com/solution/85e2bf4a8b2023229cf8accf9
+
+
 ---
 ## Step 2 - JS algorithms
 
@@ -49,3 +52,5 @@ If you have more time, you **can** work on these (optionnal):
 *Nota bene: in this test, you **mustn't** use Bootstrap, use flexboxes in it's stead !*
 
 Follow the instructions in [this file](./site/home.html)
+
+https://wild-quiz-client.herokuapp.com/solution/873add31561b908bc3587ee74

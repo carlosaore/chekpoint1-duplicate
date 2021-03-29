@@ -22,8 +22,11 @@ const scores = [
   "3:4"
 ];
 
-function getPoints(array) {
+function getPoints() {
   // Your code here !
+  for(let i = 0; i < scores.length; i++){
+    return scores[i];
+  }
 }
 
-console.log(getPoints(scores));
+console.log(getPoints());

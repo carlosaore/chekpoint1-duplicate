@@ -18,6 +18,27 @@ const people = [
   { name: "Penelope Cruz", age: 47, sex: "female" }
 ];
 
+function findAdults() {
+  let newPeople = people.filter(arr =>{arr.sex === "female" && arr.age >= 18})
+  return console.log(`the females ${arr.name} and there age ${arr.age}`)
+
+}
+
 function findAdults(arr) {
   // Your code here !
+  let onlyFem =[];
+  let onlyMal= [];
+  let  newArr = [];
+  for(let i=0; i < people.length; i++){
+    if(people[i].age>=18 && people[i].sex ==="female"){
+      onlyFem.push(people[i]);
+    }
+    else if(people[i].age>=18 && people[i].sex ==="male"){
+      onlyMal.push(people[i]);
+    }
+  }
+  newArr.push(onlyFem, onlyMal);
+  return newArr;
 }
+
+console.log(findAdults(people));

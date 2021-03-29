@@ -15,8 +15,18 @@ Your final list should like this:
   26-100
 */
 
-function theaterSieges() {
-  // Your code here !
+
+
+
+let displaySeats = []
+
+function theaterSieges(column, seat) {
+  for(let i = 1; i <= column;  i++){
+   for(let j = 1; j<= seat; j++){
+     displaySeats.push(`${i} and ${j}`)
+   }
+  }
+  return displaySeats; 
 }
 
-console.log(theaterSieges());
+console.log(theaterSieges(26,100));
