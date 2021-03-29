@@ -160,3 +160,10 @@ p {
   justify-content: center;
 
 }
+#but-name{
+  border-radius: 15px;
+  padding: 10px;
+  color:white;
+  background-color: #C28FA4;
+  border: 1px white solid;
+}
