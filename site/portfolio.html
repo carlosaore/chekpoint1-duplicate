@@ -20,12 +20,20 @@
     </header>
     <main class="container">
       <!-- First banner with title, description, avatar and image desktop -->
-      <!-- You can use the avatar image on the folder image -->
-      <section class="introduction">
-        <figure class="desktop">
-          <img src="image/desktop.svg" alt="desktop" />
-        </figure>
-      </section>
+      <div class="avatar-container">
+        <div class="header-avatar-container">
+          <h1>Full Stack</h1>
+          <p>I code Beautifully simple things and I love what i do</p>
+        </div>
+        <div class="avatar-img">
+          <img src="image/avatar-bis.png"/>
+        </div>
+        <section class="introduction">
+          <figure class="desktop">
+            <img src="image/desktop.svg" alt="desktop" />
+          </figure>
+        </section>
+      </div>
 
       <!-- Second banner with description of your name and your presentation -->
       <section class="presentation">
@@ -35,36 +43,37 @@
         </div>
 
         <!-- Bloc of list of skill front end and back end -->
-        <div class="skills">
-          <div class="column">
-            <figure class="skill">
-              <img src="image/frontend.svg" alt="frontend" />
-              <h2>Back-end Developer</h2>
-              <p>I like to code things from scratch.</p>
-              <h2 class="pink-text">Languages I speak:</h2>
-              <p>MySql</p>
-              <h2 class="pink-text">Dev Tools:</h2>
-              <ul>
-                <li>VScode</li>
-              </ul>
-            </figure>
+        
+          <div class="skills">
+            <div class="column">
+              <figure class="skill">
+                <img src="image/frontend.svg" alt="frontend" />
+                <h2>Back-end Developer</h2>
+                <p>I like to code things from scratch.</p>
+                <h2 class="pink-text">Languages I speak:</h2>
+                <p>MySql</p>
+                <h2 class="pink-text">Dev Tools:</h2>
+                <ul>
+                  <li>VScode</li>
+                </ul>
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="skill">
+                <img src="image/frontend.svg" alt="frontend" />
+                <h2>Front-end Developer</h2>
+                <p>I love bringing ideas to life.</p>
+                <h2 class="pink-text">Languages I speak:</h2>
+                <p>HTML, CSS</p>
+                <h2 class="pink-text">Dev Tools:</h2>
+                <ul id="front-dev-tools">
+                  <li>You can modify</li>
+                  <li>You can modify</li>
+                  <li>You can modify</li>
+                </ul>
+              </figure>
+            </div>
           </div>
-          <div class="column">
-            <figure class="skill">
-              <img src="image/frontend.svg" alt="frontend" />
-              <h2>Front-end Developer</h2>
-              <p>I love bringing ideas to life.</p>
-              <h2 class="pink-text">Languages I speak:</h2>
-              <p>HTML, CSS</p>
-              <h2 class="pink-text">Dev Tools:</h2>
-              <ul id="front-dev-tools">
-                <li>You can modify</li>
-                <li>You can modify</li>
-                <li>You can modify</li>
-              </ul>
-            </figure>
-          </div>
-        </div>
       </section>
 
       <!-- Third banner with list of all your projects -->
