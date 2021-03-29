@@ -8,6 +8,9 @@ thirdAngle(20, 80) should return 80
 
 function thirdAngle(a, b) {
   // Your code here !
+  function thirdAngle(a, b) {
+   
+    return 180 - a - b;
 }
 
 console.log(thirdAngle(90, 30));

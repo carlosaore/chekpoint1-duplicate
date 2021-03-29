@@ -17,6 +17,11 @@ Your final list should like this:
 
 function theaterSieges() {
   // Your code here !
+  function theaterSieges() {
+    for (let i = 0; i < 100; i++){
+    
+     
+      }
 }
 
 console.log(theaterSieges());
