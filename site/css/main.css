@@ -33,3 +33,68 @@ a {
 button:focus {
   outline: none;
 }
+.menu {
+  display: flex;
+    position: relative;
+    left: 80%;
+    flex-wrap: inherit;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-description {
+  color: black;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#image-desktop{
+ 
+}
+
+@media (max-width: 700px) 
+{
+  #image-desktop
+  {
+      display: none;
+  }
+}
+
+.skills {
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 700px) 
+{
+  .skills {
+    flex-direction: column;
+    }
+  }
+
+  .disabled {
+    opacity: 30%;
+  }
+
+  .projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contents {
+    display: flex;
+  }
+  @media (max-width: 700px) 
+{
+  .contents
+  {
+    flex-direction: column;
+  }
+}
